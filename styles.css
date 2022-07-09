@@ -1,0 +1,118 @@
+body {
+  background-color: black;
+  border: 20px solid;
+  border-bottom: none;
+  border-color: rgb(123, 239, 173);
+  position: relative;
+  top: 50px;
+}
+
+.score {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20%;
+  color: rgb(123, 239, 173);
+}
+
+.paddle {
+  width: 15%;
+  height: 20px;
+  background-color: rgb(123, 239, 173);
+}
+
+.red {
+  display: grid;
+  grid-template-columns: repeat(12, auto);
+  height: 75px;
+  margin-left: 0.2%;
+  margin-right: 0.2%;
+  background-color: red;  
+}
+    .red > div {
+      border: 3px solid;
+      border-color: black;
+    }
+
+.yellow {
+  display: grid;
+  grid-template-columns: repeat(12, auto);
+  height: 75px;
+  margin-left: 0.2%;
+  margin-right: 0.2%;
+  background-color: yellow;
+}
+    .yellow > div {
+      border: 3px solid;
+      border-color: black;
+    }
+    .yellow > div:nth-child(3){
+      background-color: black;
+    }
+    .yellow > div:nth-child(4){
+      background-color: black;
+    }
+    .yellow > div:nth-child(9){
+      background-color: black;
+    }
+    .yellow > div:nth-child(10){
+      background-color: black;
+    }
+    .yellow > div:nth-child(15){
+       background-color: black;
+    }
+    .yellow > div:nth-child(16){
+      background-color: black;
+    }
+    .yellow > div:nth-child(21){
+      background-color: black;
+    }
+    .yellow > div:nth-child(22){
+      background-color: black;
+    }
+
+.green {
+  display: grid;
+  grid-template-columns: repeat(12, auto);
+  height: 75px;
+  margin-left: 0.2%;
+  margin-right: 0.2%;
+  background-color: green;
+}
+    .green > div {
+      border: 3px solid;
+      border-color: black;
+    }
+
+.blue {
+  display: grid;
+  grid-template-columns: repeat(12, auto);
+  height: 75px;
+  margin-left: 0.2%;
+  margin-right: 0.2%;
+  background-color: blue;
+}
+    .blue > div {
+      border: 3px solid;
+      border-color: black;
+    }
+
+.black {
+  display: grid;
+  grid-template-columns: repeat(12, auto);
+  height: 375px;
+  margin-left: 0.2%;
+  margin-right: 0.2%;
+  background-color: black;
+}
+    .black > div {
+      border: 3px solid;
+      border-color: black;
+      color: white;
+    }
+    .black > div:nth-child(13){
+      position: relative;
+      left: 90%;
+      width: 15%;
+      height: 50%;
+      background-color: white;
+    }
